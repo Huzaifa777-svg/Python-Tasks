@@ -11,7 +11,7 @@ while True:
         elif User_Guess>guess_num:
             print("Too High ! Plaese Try") 
         else:
-            print("Congragulation You Have Guess a number",guess_num,"attempt",attempt)
+            print("Congrats You Have Guess a number",guess_num,"attempt",attempt)
             break
     play_again=input("Do You Want To Play Again (y/n)").title()
     if play_again!="Y":
